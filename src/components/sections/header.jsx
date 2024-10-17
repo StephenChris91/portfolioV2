@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import logo from "../../assets/images/logoDark.png"
+import logo from "../../../public/assets/LogoDark.png"
 import { Link } from 'react-scroll'
 
 const menuList = [
