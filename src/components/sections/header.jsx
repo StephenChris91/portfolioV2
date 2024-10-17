@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import logo from "../../assets/images/logo.png"
+import logo from "../../assets/images/logoDark.png"
 import { Link } from 'react-scroll'
 
 const menuList = [
@@ -59,7 +59,8 @@ const Header = () => {
                         {/* START LOGO DESIGN AREA */}
                         <div className="logo-outer">
                             <div className="logo">
-                                <h2>STEPHEN CHRIS</h2>
+                            <img src={logo} alt="Logo" title="Logo" />
+
                             </div>
                         </div>
                         {/* END LOGO DESIGN AREA */}
@@ -69,8 +70,9 @@ const Header = () => {
                             <nav className="main-menu navbar-expand-lg">
                                 <div className="navbar-header">
                                     <div className="mobile-logo">
-                                    <h2>STEPHEN CHRIS</h2>
-
+                                        <a href="#">
+                                            <img src={logo} alt="Logo" title="Logo" />
+                                        </a>
                                     </div>
                                     {/* Toggle Button */}
                                     <button type="button" className="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
