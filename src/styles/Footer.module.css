@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 1;
+  margin-top: 80px;
+}
+
+.footerColumn2 {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.footerColumn2 a {
+    text-decoration: none;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+.rights{
+    color: var(--muted-text-color)
+}
+
+.name{
+    color: var(--secondary-color);
+}
