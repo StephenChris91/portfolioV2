@@ -69,9 +69,8 @@ const Header = () => {
                             <nav className="main-menu navbar-expand-lg">
                                 <div className="navbar-header">
                                     <div className="mobile-logo">
-                                        <a href="#">
-                                            <img src={logo} alt="Logo" title="Logo" />
-                                        </a>
+                                    <h2>STEPHEN CHRIS</h2>
+
                                     </div>
                                     {/* Toggle Button */}
                                     <button type="button" className="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
