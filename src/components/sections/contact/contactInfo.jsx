@@ -15,13 +15,13 @@ const ContactInfo = () => {
                 </div>
 
 
-                <div className="single-contact wow fadeInUp" data-wow-delay=".4s">
+                {/* <div className="single-contact wow fadeInUp" data-wow-delay=".4s">
                     <div className="contact-icon">
                         <i><RiPhoneLine size={20} /></i>
                     </div>
                     <h2>contact number:</h2>
                     {/* <p>+447765743023</p> */}
-                </div>
+                {/* </div> */}
 
 
                 <div className="single-contact wow fadeInUp" data-wow-delay=".6s">
