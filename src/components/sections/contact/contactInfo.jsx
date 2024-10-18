@@ -20,7 +20,7 @@ const ContactInfo = () => {
                         <i><RiPhoneLine size={20} /></i>
                     </div>
                     <h2>contact number:</h2>
-                    <p>+447765743023</p>
+                    {/* <p>+447765743023</p> */}
                 </div>
 
 
